@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+
+}
+/* main section styling */
+.nav-bar{
+    background-color:white;
+    height:60px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(170, 168, 168);
+    padding-left: 200px;
+}
+
+/* styling the search-bar */
+.nav-searchbar{
+    display: flex;
+    width: 750px;
+    height: 50px;
+}
+input{
+    width: 650px;
+    font-size: 17px;
+    color: black;
+    padding-left: 7px;
+}
+.search-icon{
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 220, 220);
+}
+.voice-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-four{
+    display: inherit;
+    width: 200px;
+    justify-content: end;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+.big-icons{
+    height: 35px;
+}
+.profile-image{
+    height: 35px;
+}
+.smol-img{
+    height: inherit;
+}
+.youtube-logo{
+    height: 25px;
+}
+/* styling search belt */
+.search-tag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    border-bottom: 2px solid rgb(170, 168, 168);
+}
+.seaching-tag{
+    border: 0.2px solid rgb(168, 166, 166);
+    padding: 10px;
+    height: 45px;
+    border-radius: 20px;
+    background-color:  rgb(224, 224, 224);
+}
+/* styling videos */
+.row1{
+    display: flex;
+    margin-top: 20px;
+}
+.row2{
+    display: flex;
+    margin-top: 20px;
+}
+.row3{
+    display: flex;
+    margin-top: 20px;
+}
+.image-box{
+    margin: 20px;
+    height: 200px;
+    width: 340px;
+}
+.logo-title{
+    display: flex;
+    margin-left: 20px;
+}
+.name-verified{
+    display: flex;
+    margin-left: 20px;
+    color: grey;
+}
+.view-time{
+    display: flex;
+    margin-left: 20px;
+    color: grey;
+
+}
+.view-space{
+    margin-right: 15px;
+}
+
+
+/* left section */
+.left-div{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color:  rgb(224, 224, 224);
+    height: 100vh;
+    
+
+}
+.top-bar{
+    display: flex;
+    width: 280px;
+    height: 60px;
+    justify-content: space-between;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    padding-right: 90px;
+}
+.three-line{
+    margin-right: 20px;
+}
+.top-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.top-right{
+    margin-top: 80px
+
+}
+.side-image{
+    height:50px;
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+
+/* right section */
+.right-div{
+    height: 100vh;
+    width: 200px;
+    background-color:  rgb(224, 224, 224);
+}
+
+
